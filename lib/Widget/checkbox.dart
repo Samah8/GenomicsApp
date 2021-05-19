@@ -327,7 +327,24 @@ class _AnothersearchState extends State<Anothersearch> {
                     )
                   ],
                 ),
-              )
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left:110,right: 110,top: 10,bottom: 20),
+                child: Container(
+                  color: Colors.teal,
+                  height:50,
+                  width: 20,
+                  child: FlatButton(
+                    onPressed: (){
+
+                    },
+                    child: Text("Blast",style: TextStyle(color: Colors.white,fontSize: 32,),),
+                  ),
+                ),
+              ),
             ]
         ),
     );
